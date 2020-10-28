@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <meta charset="utf-8">
+    <link href="/css/style-dark.css" rel="stylesheet" type="text/css">
+    <title>Ligth Switcher</title>
+</head>
+
+
+<body id="body">
+
+    <h1 id="title">LIGHT SWITCHER</h1>
+    <p id="testo">The application will consists on a single page with a light switcher. Such that the user will be able to enable/disable a dark mode. The user can see and save some statistics. E.g.: how many times the switcher has been used, and what was the last status of the switch (is the light on or off?).</p>
+    <p>-Author: Filippo De Marco</p>
+    <br>
+    <form method="GET" action="/prova1">
+    <div id="ligth">
+        <label class="switch">
+            <input id="checkbox" type="submit" >
+            <span class="slider round"></span>
+        </label>
+    </div>
+    </form>
+    
+    
+    <h3 id="dark">DEFAULT THEME</h3>
+
+    <h1 id="title-stats">STATISTICS</h1>
+    <h4 id="ligth-status">Light is OFF</h4>
+    <form method="GET" action="/data">
+        <input type="submit" id="button-stats" value="Visualizza tutti i dati">
+    </form>
+
+    <form method="GET" action="/data/UseCount">
+        <input type="submit" id="button-stats-1" value="Visualizza numero utilizzi">
+    </form>
+
+    <form method="GET" action="/dark">
+        <input type="submit" id="button-stats" value="Numero utilizzi DARK THEME">
+    </form>
+
+    <form method="GET" action="/default">
+        <input type="submit" id="button-stats" value="Numero utilizzi DEFAULT THEME">
+    </form>
+</body>
+
+</html>

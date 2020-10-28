@@ -1,0 +1,21 @@
+{
+  "name": "lineappes",
+  "version": "1.0.0",
+  "description": "This is an exercise for LineApp:The application will consists on a single page with a light switcher. Such that the user will be able to enable/disable a dark mode. Through a json interface the user can see and save some statistics. E.g.: how many times the switcher has been used, and what was the last status of the switch (is the light on or off?).",
+  "main": "webApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webApp"
+  },
+  "author": "Filippo De Marco",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsdom": "^16.4.0",
+    "mocha-jsdom": "^2.0.0",
+    "save": "^2.4.0"
+  }
+}
